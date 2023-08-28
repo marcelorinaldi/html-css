@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+header {
+    background-image: linear-gradient(to top, #1D5C31, #329C53, #c6f8d6);
+    color: white;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    margin: auto;
+}
+
+nav {
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: #92f7b2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+
+}
+
+main {
+    background-color: white;
+    box-shadow: 5px 5px 15px #3c47239a;
+    width: 1000px;
+    padding: 20px;
+    margin: auto;
+}
+
+h2 {
+    color: #1e5c33;
+    text-align: left;
+}
+
+article {
+    text-indent: 50px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.subtitulo {
+    background-image: linear-gradient(to right, #1d5c3165, #329c544b, #c6f8d633);
+    text-align: left;
+}
+
+span {
+    color: #1e5c33;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a::after {
+    content: ' ☍';
+    color: #1e5c33;
+    text-decoration: none;
+}
+
+#droids {
+    align-items: center;
+}
+
+iframe {
+    background-color: #1D5C31;
+    padding: 30px 30px 30px 30px;
+}
+
+aside {
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: #92f7b2;
+    padding: 10px;
+}
+
+h3 {
+    background-color: #329C53;
+    color: white;
+    margin: auto;
+}
+
+.lista {
+    list-style-image: url('/imagens/lista.png');
+    list-style-position: inside;
+}
+
+footer {
+    background-color: #1D5C31;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+#rodape {
+    font-weight: bold;
+    color: white;
+}

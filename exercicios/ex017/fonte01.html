@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans',Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            obs: a W3C recomenda somente o uso de px e em.
+            16px geralmente = 1em relativo ao tamanho natural da fonte aplicada pelo navegador.
+            */
+
+            font-size: 1em;
+
+            /* lighter normal bold bolder */
+        }
+
+        h1 {
+            /* font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+
+            /* shorthand font
+            font-style -> font-weight -> font-size -> font-family */
+
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+
+        /* h1, h2 {
+            font-family: 'Times New Roman', Times, serif;
+        } */
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint laborum eligendi ut, impedit porro deserunt inventore eum exercitationem dicta officiis in quae corrupti, nam saepe officia, mollitia hic perspiciatis repellat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse minima hic magnam, at totam deserunt! Deserunt minus odit, alias voluptatem quas illo quis architecto voluptas dolorum, molestias, sapiente et voluptate.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, laborum labore eligendi facere quos aliquid, blanditiis deleniti dolore consequatur sequi minus nulla dignissimos quasi? Nihil eveniet delectus officia aliquid distinctio.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis delectus, nihil maxime cupiditate temporibus consectetur expedita eius officiis ipsa obcaecati. Rem tempora unde delectus quo eaque quibusdam impedit alias ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aliquam rerum a dicta, voluptas sed! Eius deserunt error excepturi nemo, laborum fuga earum harum, iure vitae recusandae amet at voluptatibus.</p>
+</body>
+</html>
